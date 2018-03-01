@@ -1,0 +1,12 @@
+<!--pages/first.wxml-->
+<view class='hotel'><input placeholder='搜索要预估的酒店'></input></view>
+<view class='hotel'><input placeholder='基础房型编号'></input></view>
+<view class='hotel'><input placeholder='早餐数量'></input></view>
+<view class='hotel'><input placeholder='免费有效期'></input></view>
+<view class='time'>
+  <view class='out-view'></view>
+  <view class='in-view'><view class='time-start'>6</view><view class='time-end'>12</view></view>
+  <view class='tip-view'>{{timeTip}}</view>
+</view>
+
+<button class='search' bindtap="clickMe">好了，预估</button>

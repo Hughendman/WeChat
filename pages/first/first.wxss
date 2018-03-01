@@ -1,0 +1,62 @@
+/* pages/first.wxss */
+
+/* 搜索酒店 */
+.hotel {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 30px;
+}
+.hotel input {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+/* 时间 */
+.time {
+  width: 80%;
+  margin: 100px auto 50px auto;
+}
+.out-view {
+  width: 100%;
+  height: 0px;
+  background-color: #ccc;
+  border: 2px #ccc solid;
+}
+.tip-view {
+  margin-top: 10px;
+  text-align: center;
+}
+.in-view {
+  width: 25%;
+  margin-top: -3px;
+  margin-left: 25%;
+  height: 0px;
+  background-color: #009789;
+  border: 2px #009789 solid;
+  position: relative;
+}
+.time-start,.time-end{
+  width: 24px;
+  height: 24px;
+  background-color: #009789;
+  border-radius: 12px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}
+.time-start {
+  top: -35px;
+  left: -12px;
+}
+.time-end {
+  top: -35px;
+  right: -12px;
+}
+/* 搜索 */
+.search {
+  background-color: #009789;
+  color: #fff; 
+  width: 80%;
+  margin: 0 auto;
+}
